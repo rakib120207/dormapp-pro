@@ -6,6 +6,7 @@ import { Toaster } from "sonner";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
+export const dynamic = 'force-dynamic';
 export const metadata: Metadata = {
   title: {
     default: "DormApp — Smart Expense Splitting for Roommates",

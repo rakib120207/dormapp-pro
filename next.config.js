@@ -5,7 +5,6 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  swcMinify: false,
   images: {
     remotePatterns: [
       { protocol: 'https', hostname: '**.supabase.co' },
